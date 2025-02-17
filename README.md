@@ -1,10 +1,9 @@
 # PhantomWiFi
-A tool that broadcasts fake SSIDs to disrupt Wi-Fi scans.
+A tool that broadcasts fake SSIDs to disrupt Wi-Fi scans and signals.
 
 # Key Features
 - Simple Setup.
 - Generates upto 100 Fake SSIDs.
-- Easily controlled by Serial Console.
 
 # Supported Board
 - It supports NodeMCU ESP8266 Boards only.
@@ -37,25 +36,5 @@ A tool that broadcasts fake SSIDs to disrupt Wi-Fi scans.
    - It is generally `NodeMCU 1.0 (ESP-12E Module)`.
 6. Select the correct port number of that board.
 7. Upload the code.
-
-# Supported Commands
-1. `help` - To show help message.
-2. `beacon` - Start Beacon Flooding.
-3. `stop` - Stop Beacon Flooding.
-
-# Run the Script
-1. Open Serial Console from [here](https://wirebits.github.io/SerialConsole/).
-2. Select the baud rate `115200`.
-3. Click on `Connect`.
-   - It ask in the alert pop-up to choose the device want to connect.
-   - Select the device from it.
-   - Click on `Connect` in the pop-up.
-   - If it shows `Connected! Go On!` means we successfully connected to the device.
-   - It converted into `Disconnect` button to disconnect the device.
-4. After that, type `beacon` to start beacon flooding.
+   - The code starts running automatically.
    - It takes almost 3-4 minutes to generate SSIDs.
-5. To stop beacon flooding, type `stop`.
-   - It also takes almost 3-4 minutes to stop generating SSIDs.
-
-# Note
-Need to reconnect in Serial Console beacuse it show some garbage value after `Connected! Go On!`.
