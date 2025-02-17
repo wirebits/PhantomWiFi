@@ -33,7 +33,7 @@ void setup() {
 
 void loop() {
   if (beaconing) {
-    for (int i = 0; i < 121; i++) {
+    for (int i = 0; i < 101; i++) {
       wifi_set_channel(random(1, 12));
       for (int j = 10; j <= 21; j++) packet[j] = random(256);
       for (int j = 38; j < 46; j++) packet[j] = ssid[random(ssid.length())];
