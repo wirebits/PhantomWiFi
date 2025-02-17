@@ -3,7 +3,7 @@ A tool that broadcasts fake SSIDs to disrupt Wi-Fi scans and signals.
 
 # Key Features
 - Simple Setup.
-- Generates upto 120 Fake SSIDs.
+- Generates upto 100 Fake SSIDs.
 
 # Supported Board
 - It supports NodeMCU ESP8266 Boards only.
